@@ -1,6 +1,6 @@
 # iCloud Hide My Email Generator Bot - Complete Setup Guide
 
-This comprehensive guide will walk you through setting up and running the iCloud Hide My Email Generator Bot from scratch. Follow these detailed steps to automate extraction of iCloud session cookies from Chrome profiles and schedule automatic email generation.
+Follow these detailed steps to automate extraction of iCloud session cookies from Chrome profiles and schedule automatic email generation.
 
 ## Table of Contents
 
