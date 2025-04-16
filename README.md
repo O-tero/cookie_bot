@@ -189,6 +189,39 @@ python main.py --daemon
 # Press Ctrl+A, then D to detach
 ```
 
+## Extracting iCloud Cookies for Your Bot
+
+### How to Use the Cookie Extractor
+
+1. Save the script to your computer as extract_icloud_cookies.py
+
+2. Make it executable:
+```
+chmod +x extract_icloud_cookies.py
+``` 
+3. Run it with options:
+
+- List available Chrome profiles:
+```
+python extract_icloud_cookies.py --list-profiles
+```
+- Extract cookies from the default profile:
+```
+python extract_icloud_cookies.py --output icloud_cookies.json
+```
+- Extract cookies from a specific profile:
+```
+python extract_icloud_cookies.py --profile "Profile 1" --output profile1_cookies.json
+```
+4. Verify the output file contains the necessary cookies:
+
+- X-APPLE-WEBAUTH-HSA-TRUST
+- X-APPLE-ID-SESSION-ID
+- X-APPLE-WEBAUTH-USER
+- dsid
+- scnt
+- X-APPLE-ID-TOKEN
+
 ## Advanced Configuration
 
 ### Customizing the Schedule
