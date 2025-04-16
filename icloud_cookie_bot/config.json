@@ -1,0 +1,16 @@
+{
+    "profiles": [
+      {
+        "name": "Profile 1",
+        "path": "C:/Users/YourUser/AppData/Local/Google/Chrome/User Data/Profile 1",
+        "id": "profile1"
+      },
+      {
+        "name": "Profile 2",
+        "path": "C:/Users/YourUser/AppData/Local/Google/Chrome/User Data/Profile 2",
+        "id": "profile2"
+      }
+    ],
+    "email_limit_per_hour": 5,
+    "refresh_interval_minutes": 60
+  }

@@ -1,0 +1,9 @@
+# Core requirements
+requests==2.31.0
+schedule==1.2.0
+cryptography==41.0.3
+pycryptodome==3.19.0
+
+# Terminal UI improvements (optional)
+colorama==0.4.6
+rich==13.5.2
