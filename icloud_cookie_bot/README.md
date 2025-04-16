@@ -120,9 +120,7 @@ python main.py --config myconfiguration.json
 
 ### Cookie Decryption
 
-- On **Windows**: Uses the CryptUnprotectData API to decrypt cookies
 - On **macOS**: Uses the Keychain to decrypt cookies
-- On **Linux**: Uses the secret service API to decrypt cookies
 
 ### Session Management
 
@@ -178,9 +176,7 @@ icloud_cookie_bot/
    - Verify the iCloud account has an iCloud+ subscription
 
 3. **"Decryption failed"**
-   - On Windows: Ensure you're logged in with the same user that created the cookies
    - On macOS: Check that the Keychain is accessible
-   - On Linux: Ensure the secret service is available
 
 ## 🤝 Contributing
 
